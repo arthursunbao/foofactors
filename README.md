@@ -8,10 +8,19 @@ Factors are a very useful type of variable in R, but they can also drive you nut
 ### Installation
 
 ``` r
-devtools::install_github("arthursunbao/foofactors")
+devtools::install_github("jasonsunbao/foofactors")
 ```
 
 ### Quick demo
+
+Jason's self made function via `sort_factor()`:
+
+``` r
+library(foofactors)
+c <- factor(c("character", "hits", "your", "eyeballs")) 
+levels(c)
+levels(sort_factor(c))
+```
 
 Jason's self made function via `check_factor()`:
 
