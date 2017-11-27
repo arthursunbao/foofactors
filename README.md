@@ -8,10 +8,18 @@ Factors are a very useful type of variable in R, but they can also drive you nut
 ### Installation
 
 ``` r
-devtools::install_github("jennybc/foofactors")
+devtools::install_github("jasonsunbao/foofactors")
 ```
 
 ### Quick demo
+
+Jason's self made function via `check_factor()`:
+
+``` r
+library(foofactors)
+a <- check_factor(c("character", "hits", "your", "eyeballs")) # This is not a factor
+b <- check_factor(c("but", "integer", "where it", "counts", "but")) # This is a factor
+```
 
 Binding two factors via `fbind()`:
 
@@ -59,7 +67,7 @@ The `freq_out()` function returns a frequency table as a well-named `tbl_df`:
 
 ``` r
 freq_out(x)
-#> # A tibble: 5 × 2
+#> # A tibble: 5 x 2
 #>        x     n
 #>   <fctr> <int>
 #> 1      a    25

@@ -1,10 +1,12 @@
-#' foofactors: Make factors less annoying
+#' foofactors.
 #'
-#' Factors have driven people to extreme measures, like ordering custom
-#' conference ribbons and laptop stickers to express how HELLNO we feel about
-#' stringsAsFactors. And yet, sometimes you need them. Can they be made less
-#' maddening? Let's find out.
+#' This is the package for the extension of homework 9 for STAT545 based on Jenny's teaching packag
+#' There will be check_factor(), which will be checking whether the current input
+#' is a factor or not
 #'
 #' @name foofactors
 #' @docType package
-NULL
+#' @author Jason Sun
+#' @note This package is an extension of the current experimental package based on
+#' Jenny's teaching package
+#' @docType package

@@ -1,6 +1,6 @@
 ---
 title: "stringsAsFactors = HELLNO"
-author: "Jenny Bryan"
+author: "Jason Sun"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
@@ -9,7 +9,14 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-Factors are a very useful type of variable in R, but they can also drive you nuts. Especially the "stealth factor" that you think of as character.
+I have developed some new functions based on the previous Jenny Brian's previous fooffactor package and wanna check out the new functionality?
+
+Jason's self made function via `check_factor()`:
+``` r
+library(foofactors)
+a <- check_factor(c("character", "hits", "your", "eyeballs")) # This is not a factor
+b <- check_factor(c("but", "integer", "where it", "counts", "but")) # This is a factor
+```
 
 Can we soften some of their sharp edges?
 
