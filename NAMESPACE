@@ -3,3 +3,4 @@
 export(check_factor)
 export(fbind)
 export(freq_out)
+export(sort_factor)
