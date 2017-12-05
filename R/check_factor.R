@@ -7,8 +7,9 @@
 #'
 #' @return true: if it is a factor; false: if it is not a factor
 #' @export
-#' @examples a <- check_factor(c("character", "hits", "your", "eyeballs")) # This is not a factor
-#' @examples b <- check_factor(c("but", "integer", "where it", "counts", "but")) # This is a factor
+#'
+#' @examples check_factor(factor(c("hits","hits","your", "eyeballs")))
+#' @examples check_factor(factor(c("but","integer", "where it", "counts", "but")))
 
 check_factor <- function(a) {
   if(!is.factor(a)){

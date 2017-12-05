@@ -6,7 +6,8 @@
 #'
 #' @return the descending sorted order factor
 #' @export
-#' @examples a <- sort(factor(c("character", "hits", "your", "eyeballs")))
+#'
+#' @examples sort_factor(factor(c("hits", "hits", "your", "eyeballs")))
 
 sort_factor <- function(a) {
   if(!is.factor(a)){

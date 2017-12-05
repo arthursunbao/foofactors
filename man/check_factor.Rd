@@ -17,6 +17,6 @@ This is a function which is used to double check whether the input is a factor
 or not and will return the true or false judgement
 }
 \examples{
-a <- check_factor(c("character", "hits", "your", "eyeballs")) # This is not a factor
-b <- check_factor(c("but", "integer", "where it", "counts", "but")) # This is a factor
+check_factor(factor(c("hits","hits","your", "eyeballs")))
+check_factor(factor(c("but","integer", "where it", "counts", "but")))
 }
